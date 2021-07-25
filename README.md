@@ -1,2 +1,3 @@
 # curly-phone
-Basics of capturing Video using OpenCV
+
+It demonstrates how to Capture Video and Save the Video using openCV
