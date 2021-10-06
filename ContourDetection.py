@@ -1,12 +1,8 @@
-'''
-Created on Aug 8, 2021
 
-@author: Parul Vats
-'''
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-img = cv2.imread(r'E:\cognizant\Computer-Vision-with-Python\Computer-Vision-with-Python\DATA\internal_external.png')
+img = cv2.imread('enter ur image path')
 img = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 plt.imshow(img)
 plt.show()
